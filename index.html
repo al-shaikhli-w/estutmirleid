@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wien Wohnungssuche — Dashboard</title>
+<style>
+  :root{
+    --bg:#12181f;
+    --panel:#1b232d;
+    --panel-2:#222c38;
+    --line:#2c3846;
+    --fg:#e8edf2;
+    --muted:#8fa0b3;
+    --accent:#f2b134;
+    --accent-2:#3f8efc;
+    --good:#4fbf7a;
+    --fav:#ff5c8a;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:"Inter","Helvetica Neue",Arial,sans-serif;
+    line-height:1.4;
+  }
+  header{
+    padding:clamp(20px, 4vw, 32px) 24px 20px;
+    border-bottom:1px solid var(--line);
+    max-width:1100px;
+    margin:0 auto;
+  }
+  header p{
+    max-width:70ch;
+  }
+  header h1{
+    font-size:1.6rem;
+    margin:0 0 6px;
+    letter-spacing:-0.01em;
+  }
+  header p{
+    color:var(--muted);
+    margin:0;
+    font-size:0.95rem;
+  }
+  .meta-row{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(130px, 1fr));
+    gap:12px;
+    margin-top:18px;
+  }
+  .stat{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:12px 16px;
+  }
+  .stat .n{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--accent);
+    line-height:1.15;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  #stat-updated{
+    font-size:1.05rem;
+  }
+  .stat .l{
+    font-size:0.75rem;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    color:var(--muted);
+  }
+  main{
+    max-width:1100px;
+    margin:0 auto;
+    padding:24px;
+  }
+  .controls{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    gap:10px;
+    margin-bottom:10px;
+  }
+  .controls .search{
+    grid-column:1 / -1;
+  }
+  .controls input, .controls select{
+    width:100%;
+    background:var(--panel);
+    border:1px solid var(--line);
+    color:var(--fg);
+    padding:9px 12px;
+    border-radius:8px;
+    font-size:0.9rem;
+  }
+  .controls input::placeholder{color:var(--muted);}
+  .controls input:focus, .controls select:focus{
+    outline:none;
+    border-color:var(--accent-2);
+  }
+  .controls-2{
+    display:flex;
+    gap:14px;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-bottom:18px;
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .toggle{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    cursor:pointer;
+    user-select:none;
+  }
+  .toggle input{accent-color:var(--fav);width:16px;height:16px;}
+  .btn-reset{
+    background:var(--panel);
+    border:1px solid var(--line);
+    color:var(--fg);
+    padding:7px 12px;
+    border-radius:8px;
+    font-size:0.82rem;
+    cursor:pointer;
+  }
+  .btn-reset:hover{border-color:var(--accent-2);}
+  .result-count{margin-left:auto;}
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+    gap:14px;
+  }
+  .card{
+    position:relative;
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    transition:border-color .15s ease, transform .15s ease;
+  }
+  .card:hover{
+    border-color:var(--accent-2);
+    transform:translateY(-2px);
+  }
+  .card.fav{border-color:var(--fav);}
+  .card .address{
+    font-weight:600;
+    font-size:1rem;
+    padding-right:28px;
+  }
+  .card .locality{
+    color:var(--muted);
+    font-size:0.82rem;
+  }
+  .card .source{
+    color:var(--muted);
+    font-size:0.78rem;
+  }
+  .badge-row{
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+    margin-top:4px;
+  }
+  .badge{
+    background:var(--panel-2);
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:4px 8px;
+    font-size:0.78rem;
+    color:var(--fg);
+  }
+  .badge.rent{color:var(--accent);border-color:#4a3c1c;}
+  .badge.district{color:var(--accent-2);border-color:#243a5c;}
+  .badge.new{color:var(--good);border-color:#204a30;}
+  .badge.kauf{color:var(--accent);border-color:#4a3c1c;background:#2a2416;}
+  .card a.detail{
+    margin-top:8px;
+    color:var(--accent-2);
+    text-decoration:none;
+    font-size:0.85rem;
+    font-weight:600;
+  }
+  .card a.detail:hover{text-decoration:underline;}
+  .star{
+    position:absolute;
+    top:12px;
+    right:12px;
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-size:1.25rem;
+    line-height:1;
+    color:var(--muted);
+    padding:0;
+    transition:transform .1s ease, color .15s ease;
+  }
+  .star:hover{transform:scale(1.15);}
+  .star.on{color:var(--fav);}
+  .empty{
+    color:var(--muted);
+    padding:40px;
+    text-align:center;
+    grid-column:1 / -1;
+  }
+  footer{
+    max-width:1100px;
+    margin:0 auto;
+    padding:24px;
+    color:var(--muted);
+    font-size:0.8rem;
+    border-top:1px solid var(--line);
+  }
+  a{color:var(--accent-2);}
+</style>
+</head>
+<body>
+<header>
+  <h1>Wien Genossenschaftswohnungen — Dashboard</h1>
+  <div class="meta-row">
+    <div class="stat"><div class="n" id="stat-total">–</div><div class="l">Angebote aktuell</div></div>
+    <div class="stat"><div class="n" id="stat-new">–</div><div class="l">Neu seit letztem Lauf</div></div>
+    <div class="stat"><div class="n" id="stat-fav">–</div><div class="l">Favoriten</div></div>
+    <div class="stat"><div class="n" id="stat-updated">–</div><div class="l">Letztes Update</div></div>
+  </div>
+</header>
+<main>
+  <div class="controls">
+    <input class="search" type="text" id="filter-search" placeholder="Suche: Straße, Bezirk, PLZ, Anbieter, Zimmer …  (mehrere Begriffe möglich)">
+    <select id="filter-district">
+      <option value="">Alle Bezirke</option>
+    </select>
+    <input type="number" id="filter-rent-max" placeholder="Miete max €" min="0" step="50">
+    <select id="sort-by">
+      <option value="new-desc">Neueste zuerst</option>
+      <option value="new-asc">Älteste zuerst</option>
+      <option value="rent-desc">Miete: hoch → niedrig</option>
+      <option value="rent-asc">Miete: niedrig → hoch</option>
+      <option value="size-desc">Größe: groß → klein</option>
+      <option value="size-asc">Größe: klein → groß</option>
+      <option value="fav-first">Favoriten zuerst</option>
+    </select>
+  </div>
+  <div class="controls-2">
+    <label class="toggle"><input type="checkbox" id="filter-fav-only"> Nur Favoriten ★</label>
+    <label class="toggle"><input type="checkbox" id="filter-new-only"> Nur neue Angebote</label>
+    <button class="btn-reset" id="btn-reset">Filter zurücksetzen</button>
+    <span class="result-count" id="result-count"></span>
+  </div>
+  <div class="grid" id="grid">
+    <div class="empty">Lade Angebote…</div>
+  </div>
+</main>
+<footer>
+  Datenquelle: mygewo.at (unabhängige Suchmaschine für Genossenschaftswohnungen). Favoriten werden nur lokal in deinem Browser gespeichert und bleiben erhalten, solange das Angebot online ist (danach noch 1 Tag). Dieses Dashboard ist ein privates Hilfsmittel und steht in keiner Verbindung zu den Bauträgern.
+</footer>
+
+<script>
+const DAY_MS = 24 * 60 * 60 * 1000;
+const FAV_KEY = 'waw_favorites_v1';
+let ALL = [];
+let NEW_IDS = new Set();
+
+/* ---------- Favorites (localStorage, 1-day grace after delisting) ---------- */
+function loadFavs(){
+  try { return JSON.parse(localStorage.getItem(FAV_KEY)) || {}; }
+  catch(e){ return {}; }
+}
+function saveFavs(f){ localStorage.setItem(FAV_KEY, JSON.stringify(f)); }
+
+let FAVS = loadFavs();
+let FIRST_SEEN_TS = {};
+
+function isFav(id){ return !!FAVS[id]; }
+function toggleFav(id){
+  const now = Date.now();
+  if (FAVS[id]) delete FAVS[id];
+  else FAVS[id] = { addedAt: now, lastSeen: now };
+  saveFavs(FAVS);
+}
+// Refresh lastSeen for favorites still online; drop ones gone for > 1 day.
+function reconcileFavs(){
+  const now = Date.now();
+  const live = new Set(ALL.map(l => l.id));
+  let changed = false;
+  for (const id of Object.keys(FAVS)){
+    if (live.has(id)){
+      FAVS[id].lastSeen = now;           // still listed → keep alive
+      changed = true;
+    } else if (now - (FAVS[id].lastSeen || 0) > DAY_MS){
+      delete FAVS[id];                   // gone > 1 day → forget
+      changed = true;
+    }
+  }
+  if (changed) saveFavs(FAVS);
+}
+
+/* ---------- Clean title parsing from the messy address blob ---------- */
+// Raw looks like: "- 36,77 m² • 1 Zimmer Miete: €624 • Kapital: - Fickeysstraße 5 1110 Wien , Wien"
+function parseAddress(raw){
+  let s = (raw || '').trim();
+
+  // Vienna postal codes follow the 1xx0 pattern; prefer the one before "Wien".
+  const pm = s.match(/(1\d{2}0)\s*Wien/i) || s.match(/\b(1\d{2}0)\b/);
+  const plz = pm ? pm[1] : '';
+  const district = plz ? String(parseInt(plz.slice(1,3),10)) : '';
+
+  // Strip every known noise token so only the street / project name is left.
+  s = s
+    .replace(/Miete:/gi, '')
+    .replace(/Kapital:\s*(?:€\s*[\d.,]+|-)/gi, '')      // "Kapital: €28.750" / "Kapital: -"
+    .replace(/[\d.,]+\s*(?:-\s*[\d.,]+\s*)?m²/gi, '')   // "36,77 m²" and ranges
+    .replace(/\d+\s*Zimmer/gi, '')                      // "2 Zimmer"
+    .replace(/€\s*[\d.,]+/g, '')                        // leftover prices
+    .replace(/\b1\d{2}0\b/g, '')                        // any Vienna postal code
+    .replace(/,?\s*Wien/gi, '')                         // any "Wien" / ", Wien"
+    .replace(/[·•|]+/g, ' ')                            // separators
+    .replace(/\s{2,}/g, ' ')
+    .replace(/^[\s,\-–]+|[\s,\-–]+$/g, '')              // trim junk edges
+    .trim();
+
+  return {
+    street: s || 'Adresse unbekannt',
+    plz,
+    district,                                  // "1".."23"
+    locality: plz ? `${plz} Wien${district ? ' · '+district+'. Bezirk' : ''}` : 'Wien'
+  };
+}
+
+/* ---------- Load ---------- */
+async function fetchListingsData(){
+  const bust = '?_=' + Date.now();
+  const candidates = [
+    './listings.json' + bust,
+    '/listings.json' + bust,
+    './data/listings.json' + bust
+  ];
+
+  for (const url of candidates){
+    try {
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) continue;
+      return await res.json();
+    } catch (e) {
+      // Try next candidate path.
+    }
+  }
+  throw new Error('Could not load listings.json from any known path');
+}
+
+async function load() {
+  try {
+    const data = await fetchListingsData();
+    FIRST_SEEN_TS = {};
+    (data.history || []).forEach(run => {
+      const ts = Date.parse(run.timestamp || '') || 0;
+      (run.new_ids || []).forEach(id => {
+        if (!FIRST_SEEN_TS[id] || ts < FIRST_SEEN_TS[id]) FIRST_SEEN_TS[id] = ts;
+      });
+    });
+    ALL = (data.listings || []).map(l => ({ ...l, _addr: parseAddress(l.address) }));
+
+    // Mark listings that appeared in the most recent run as "new"
+    const lastRun = (data.history || []).slice(-1)[0];
+    if (lastRun && Array.isArray(lastRun.new_ids)) NEW_IDS = new Set(lastRun.new_ids);
+
+    reconcileFavs();
+
+    document.getElementById('stat-total').textContent = ALL.length;
+    document.getElementById('stat-new').textContent = lastRun ? (lastRun.added ?? 0) : 0;
+    if (data.last_updated) {
+      const d = new Date(data.last_updated);
+      document.getElementById('stat-updated').textContent = d.toLocaleString('de-AT', {dateStyle:'short', timeStyle:'short'});
+    }
+    populateFilters();
+    render();
+  } catch (e) {
+    document.getElementById('grid').innerHTML = '<div class="empty">Konnte listings.json nicht laden.</div>';
+  }
+}
+
+function populateFilters(){
+  // Districts present in data
+  const districts = [...new Set(ALL.map(l => l._addr.district).filter(Boolean))]
+    .sort((a,b) => parseInt(a,10) - parseInt(b,10));
+  const dSel = document.getElementById('filter-district');
+  districts.forEach(d => {
+    const o = document.createElement('option');
+    o.value = d;
+    o.textContent = `${d}. Bezirk (1${String(d).padStart(2,'0')}0)`;
+    dSel.appendChild(o);
+  });
+}
+
+/* ---------- Render ---------- */
+function render() {
+  const search      = document.getElementById('filter-search').value.toLowerCase().trim();
+  const tokens      = search.split(/\s+/).filter(Boolean);
+  const district    = document.getElementById('filter-district').value;
+  const rentMax     = parseFloat(document.getElementById('filter-rent-max').value);
+  const favOnly     = document.getElementById('filter-fav-only').checked;
+  const newOnly     = document.getElementById('filter-new-only').checked;
+  const sortBy      = document.getElementById('sort-by').value;
+
+  let items = ALL.filter(l => {
+    const a = l._addr;
+    // Smart search: every token must match somewhere in the listing
+    if (tokens.length){
+      const hay = [
+        a.street, a.plz, a.locality, l.source_site, l.provider,
+        a.district ? a.district + '. bezirk' : '',
+        a.district, l.rooms ? l.rooms + ' zimmer' : '', l.rent_eur, l.size_sqm,
+        l.kaufoption === true ? 'kaufoption mietkauf' : ''
+      ].join(' ').toLowerCase();
+      if (!tokens.every(t => hay.includes(t))) return false;
+    }
+    if (district && a.district !== district) return false;
+    if (!isNaN(rentMax)    && (parseFloat(l.rent_eur)    || Infinity) > rentMax)   return false;
+    if (favOnly && !isFav(l.id)) return false;
+    if (newOnly && !NEW_IDS.has(l.id)) return false;
+    return true;
+  });
+
+  const num = (v) => parseFloat(v) || 0;
+  const seen = (l) => FIRST_SEEN_TS[l.id] || 0;
+  items.sort((a, b) => {
+    switch (sortBy){
+      case 'new-desc':   return seen(b) - seen(a);
+      case 'new-asc':    return seen(a) - seen(b);
+      case 'rent-asc':    return num(a.rent_eur) - num(b.rent_eur);
+      case 'rent-desc':   return num(b.rent_eur) - num(a.rent_eur);
+      case 'size-desc':   return num(b.size_sqm) - num(a.size_sqm);
+      case 'size-asc':    return num(a.size_sqm) - num(b.size_sqm);
+      case 'fav-first':   return (isFav(b.id)?1:0) - (isFav(a.id)?1:0);
+      default: return 0;
+    }
+  });
+
+  document.getElementById('stat-fav').textContent = Object.keys(FAVS).length;
+  document.getElementById('result-count').textContent = `${items.length} von ${ALL.length} Angeboten`;
+
+  const grid = document.getElementById('grid');
+  if (!items.length) {
+    grid.innerHTML = '<div class="empty">Keine Angebote gefunden.</div>';
+    return;
+  }
+
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  grid.innerHTML = items.map(l => {
+    const a = l._addr;
+    const fav = isFav(l.id);
+    const isNew = NEW_IDS.has(l.id);
+    return `
+    <div class="card${fav ? ' fav' : ''}">
+      <button class="star${fav ? ' on' : ''}" data-id="${esc(l.id)}" title="Als Favorit speichern (lokal, 1 Tag)">${fav ? '★' : '☆'}</button>
+      <div class="address">${esc(a.street)}</div>
+      <div class="locality">${esc(a.locality)}</div>
+      <div class="source">${l.provider ? esc(l.provider) + ' · ' : ''}gefunden auf ${esc(l.source_site || '–')}</div>
+      <div class="badge-row">
+        <span class="badge rent">€ ${esc(l.rent_eur || '–')} / Monat</span>
+        <span class="badge">${esc(l.size_sqm || '–')} m²</span>
+        <span class="badge">${esc(l.rooms || '–')} Zimmer</span>
+        ${a.district ? `<span class="badge district">${esc(a.district)}. Bezirk</span>` : ''}
+        ${l.deposit_eur ? `<span class="badge">Kapital € ${esc(l.deposit_eur)}</span>` : ''}
+        ${l.kaufoption === true ? '<span class="badge kauf" title="Miete mit Kaufoption">🔑 Kaufoption</span>' : ''}
+        ${isNew ? '<span class="badge new">NEU</span>' : ''}
+      </div>
+      <a class="detail" href="${esc(l.detail_url)}" target="_blank" rel="noopener">Zum Angebot →</a>
+    </div>`;
+  }).join('');
+
+  grid.querySelectorAll('.star').forEach(btn => {
+    btn.addEventListener('click', () => { toggleFav(btn.dataset.id); render(); });
+  });
+}
+
+/* ---------- Wiring ---------- */
+['filter-search','filter-rent-max'].forEach(id =>
+  document.getElementById(id).addEventListener('input', render));
+['filter-district','sort-by','filter-fav-only','filter-new-only'].forEach(id =>
+  document.getElementById(id).addEventListener('change', render));
+
+document.getElementById('btn-reset').addEventListener('click', () => {
+  ['filter-search','filter-rent-max'].forEach(id => document.getElementById(id).value = '');
+  ['filter-district'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('filter-fav-only').checked = false;
+  document.getElementById('filter-new-only').checked = false;
+  document.getElementById('sort-by').value = 'new-desc';
+  render();
+});
+
+load();
+</script>
+</body>
+</html>

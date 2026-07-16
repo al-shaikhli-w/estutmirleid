@@ -1,0 +1,998 @@
+{
+  "last_updated": "2026-07-16T07:56:48.102205+00:00",
+  "listings": [
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-3-zimmer-80-55-m2-neues-leben-0d6ee215-0020-409a-9337-3b90d5eb5e2e",
+      "rent_eur": "627",
+      "size_sqm": "80.55",
+      "rooms": 3,
+      "deposit_eur": "27110",
+      "address": "80,55 m² • 3 Zimmer Miete: €627 • Kapital: €27.110 Quellenstraße 11 1100 Wien , Wien",
+      "kaufoption": true,
+      "provider": null,
+      "source_site": "wohnen.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-3-zimmer-80-55-m2-neues-leben-0d6ee215-0020-409a-9337-3b90d5eb5e2e"
+    },
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-2-zimmer-47-m2-oevw-3e852e57-72cd-43a6-99fe-fffd5421bedd",
+      "rent_eur": "547",
+      "size_sqm": "47",
+      "rooms": 2,
+      "deposit_eur": "14654",
+      "address": "47 m² • 2 Zimmer Miete: €547 • Kapital: €14.654 Helene-Thimig-Weg 9,11,13,15 1230 Wien , Wien",
+      "kaufoption": false,
+      "provider": null,
+      "source_site": "oevw.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-2-zimmer-47-m2-oevw-3e852e57-72cd-43a6-99fe-fffd5421bedd"
+    },
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-2-zimmer-53-m2-oevw-95eb25ad-0f36-4fa6-996c-1de4ed9c1d14",
+      "rent_eur": "624",
+      "size_sqm": "53",
+      "rooms": 2,
+      "deposit_eur": "16816",
+      "address": "53 m² • 2 Zimmer Miete: €624 • Kapital: €16.816 Helene-Thimig-Weg 9,11,13,15 1230 Wien , Wien",
+      "kaufoption": false,
+      "provider": null,
+      "source_site": "oevw.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-2-zimmer-53-m2-oevw-95eb25ad-0f36-4fa6-996c-1de4ed9c1d14"
+    },
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-2-zimmer-53-53-m2-neues-leben-9472d43c-d81e-48de-906e-3795f02691a4",
+      "rent_eur": "540",
+      "size_sqm": "53.53",
+      "rooms": 2,
+      "deposit_eur": "10530",
+      "address": "53,53 m² • 2 Zimmer Miete: €540 • Kapital: €10.530 Hütteldorfer Straße 305-309 1140 Wien , Wien",
+      "kaufoption": false,
+      "provider": null,
+      "source_site": "wohnen.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-2-zimmer-53-53-m2-neues-leben-9472d43c-d81e-48de-906e-3795f02691a4"
+    },
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-1-zimmer-36-77-m2-frieden-e1a3e0bc-a32a-4770-a57a-ff24014a9dd8",
+      "rent_eur": "624",
+      "size_sqm": "36.77",
+      "rooms": 1,
+      "deposit_eur": null,
+      "address": "- 36,77 m² • 1 Zimmer Miete: €624 • Kapital: - Fickeysstraße 5 1110 Wien , Wien",
+      "kaufoption": false,
+      "provider": null,
+      "source_site": "frieden.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-1-zimmer-36-77-m2-frieden-e1a3e0bc-a32a-4770-a57a-ff24014a9dd8"
+    },
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-2-zimmer-64-m2-oevw-91a78d3a-e1b0-4d14-a092-6534fa13a1d6",
+      "rent_eur": "843",
+      "size_sqm": "64",
+      "rooms": 2,
+      "deposit_eur": "19636",
+      "address": "64 m² • 2 Zimmer Miete: €843 • Kapital: €19.636 Stadlauer Straße 49 1220 Wien , Wien",
+      "kaufoption": false,
+      "provider": null,
+      "source_site": "oevw.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-2-zimmer-64-m2-oevw-91a78d3a-e1b0-4d14-a092-6534fa13a1d6"
+    },
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-1-zimmer-31-74-m2-neues-leben-a39f501f-81e8-4f44-87a4-a61a93ded3d6",
+      "rent_eur": "778",
+      "size_sqm": "31.74",
+      "rooms": 1,
+      "deposit_eur": null,
+      "address": "- 31,74 m² • 1 Zimmer Miete: €778 • Kapital: - Dückegasse 11 - DG - Wohnheim 1220 Wien , Wien",
+      "kaufoption": true,
+      "provider": null,
+      "source_site": "wohnen.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-1-zimmer-31-74-m2-neues-leben-a39f501f-81e8-4f44-87a4-a61a93ded3d6"
+    },
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-1-zimmer-23-16-m2-neues-leben-6e8880a6-34d9-4f89-a937-5e0be3cd2bd7",
+      "rent_eur": "697",
+      "size_sqm": "23.16",
+      "rooms": 1,
+      "deposit_eur": null,
+      "address": "- 23,16 m² • 1 Zimmer Miete: €697 • Kapital: - Dückegasse 11 - DG - Wohnheim 1220 Wien , Wien",
+      "kaufoption": true,
+      "provider": null,
+      "source_site": "wohnen.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-1-zimmer-23-16-m2-neues-leben-6e8880a6-34d9-4f89-a937-5e0be3cd2bd7"
+    },
+    {
+      "id": "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-1-zimmer-23-15-m2-neues-leben-f37e31c1-5260-4013-922d-3efedde6f0d2",
+      "rent_eur": "646",
+      "size_sqm": "23.15",
+      "rooms": 1,
+      "deposit_eur": null,
+      "address": "- 23,15 m² • 1 Zimmer Miete: €646 • Kapital: - Dückegasse 11 - DG - Wohnheim 1220 Wien , Wien",
+      "kaufoption": true,
+      "provider": null,
+      "source_site": "wohnen.at",
+      "detail_url": "https://mygewo.at/genossenschaftswohnungen/angebot/genossenschaftswohnung-wien-1-zimmer-23-15-m2-neues-leben-f37e31c1-5260-4013-922d-3efedde6f0d2"
+    },
+    {
+      "id": "coop-https-www-bwsg-at-immobilien-immobilie-suchen-85-53-4-1110",
+      "rent_eur": null,
+      "size_sqm": "85.53",
+      "rooms": 4,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Top Midori Living – Kunst des Wohnens 32,61 - 85,53 m² | 1 - 4 Zimmer 2340 Mödling Top Brambilla – Grün wohnen an der U3 – mit der Miete Eigentum finanzieren 53,48 - 63,54 m² | 2 Zimmer 1110 Wien",
+      "provider": "BWSG - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "source_site": "www.bwsg.at",
+      "detail_url": "https://www.bwsg.at/immobilien/immobilie-suchen/"
+    },
+    {
+      "id": "coop-https-www-bwsg-at-immobilien-immobilie-suchen-63-54-2-1110",
+      "rent_eur": null,
+      "size_sqm": "63.54",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Brambilla – Grün wohnen an der U3 – mit der Miete Eigentum finanzieren 53,48 - 63,54 m² | 2 Zimmer 1110 Wien",
+      "provider": "BWSG - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "source_site": "www.bwsg.at",
+      "detail_url": "https://www.bwsg.at/immobilien/immobilie-suchen/"
+    },
+    {
+      "id": "coop-https-www-bwsg-at-immobilien-stellplatz-suchen-63-54-2-1110",
+      "rent_eur": null,
+      "size_sqm": "63.54",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Top Brambilla – Grün wohnen an der U3 – mit der Miete Eigentum finanzieren 53,48 - 63,54 m² | 2 Zimmer 1110 Wien Top Midori Living – Kunst des Wohnens 32,61 - 85,53 m² | 1 - 4 Zimmer 2340 Mödling",
+      "provider": "BWSG - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "source_site": "www.bwsg.at",
+      "detail_url": "https://www.bwsg.at/immobilien/stellplatz-suchen/"
+    },
+    {
+      "id": "coop-https-www-bwsg-at-immobilien-neubauprojekte-63-41-2-1220",
+      "rent_eur": null,
+      "size_sqm": "63.41",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Gretls Garten – Wohnen beim Badeteich Hirschstetten 53,93 - 63,41 m² | 2 Zimmer 1220 Wien",
+      "provider": "BWSG - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "source_site": "www.bwsg.at",
+      "detail_url": "https://www.bwsg.at/immobilien/neubauprojekte/"
+    },
+    {
+      "id": "coop-https-www-bwsg-at-immobilien-neubauprojekte-63-54-2-1110",
+      "rent_eur": null,
+      "size_sqm": "63.54",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Brambilla – Grün wohnen an der U3 – mit der Miete Eigentum finanzieren 53,48 - 63,54 m² | 2 Zimmer 1110 Wien",
+      "provider": "BWSG - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "source_site": "www.bwsg.at",
+      "detail_url": "https://www.bwsg.at/immobilien/neubauprojekte/"
+    },
+    {
+      "id": "coop-https-www-bwsg-at-immobilien-neubauprojekte-63-55-3-1220",
+      "rent_eur": null,
+      "size_sqm": "63.55",
+      "rooms": 3,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Jonas am Feld – Wohnen am Badeteich Hirschstetten 46,65 - 63,55 m² | 2-3 Zimmer 1220 Wien",
+      "provider": "BWSG - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "source_site": "www.bwsg.at",
+      "detail_url": "https://www.bwsg.at/immobilien/neubauprojekte/"
+    },
+    {
+      "id": "coop-https-www-bwsg-at-immobilien-neubauprojekte-73-64-3-1220",
+      "rent_eur": null,
+      "size_sqm": "73.64",
+      "rooms": 3,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Leo am Teich – Wohnen am Wasser 60,31 - 73,64 m² | 2-3 Zimmer 1220 Wien",
+      "provider": "BWSG - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "source_site": "www.bwsg.at",
+      "detail_url": "https://www.bwsg.at/immobilien/neubauprojekte/"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen115-00-5-1100",
+      "rent_eur": null,
+      "size_sqm": "115.00",
+      "rooms": 5,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "In Planung Vormerkung noch nicht möglich \"Viola Park\" Theodor-Sickel-Gasse, Bpl. 3 1100 Wien 102 Wohnungen 31,00 – 115,00 m² 1 – 5 Zimmer",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen113-38-4-1120",
+      "rent_eur": "1777.49",
+      "size_sqm": "113.38",
+      "rooms": 4,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofort verfügbar Besichtigung möglich Altmannsdorfer Strasse 104 1120 Wien 1 Wohnung 113,38 m² 4 Zimmer ab € 1.777,49",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen105-00-5-1140",
+      "rent_eur": null,
+      "size_sqm": "105.00",
+      "rooms": 5,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "In Bau Vormerkung nicht mehr möglich Seniorenwohnungen im Denkmal Reizenpfenninggasse 1a, Bpl. A3 1140 Wien 84 Wohnungen 31,00 – 105,00 m² 1 – 5 Zimmer",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen110-00-4-1140",
+      "rent_eur": null,
+      "size_sqm": "110.00",
+      "rooms": 4,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "In Bau ehem. Wäscherei im OWS - Pavillon 55 Reizenpfenninggasse 1a, Bpl A4 1140 Wien 42 Wohnungen 30,00 – 110,00 m² 2 – 4 Zimmer",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen50-55-2-1140",
+      "rent_eur": "886.51",
+      "size_sqm": "50.55",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofort verfügbar Besichtigung möglich Reizenpfenningg.1a Bpl A1 1140 Wien 1 Wohnung 50,55 m² 2 Zimmer ab € 886,51",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen53-87-1-1150",
+      "rent_eur": "814.50",
+      "size_sqm": "53.87",
+      "rooms": 1,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofort verfügbar Besichtigung möglich Goldschlagstrasse 59a 1150 Wien 1 Wohnung 53,87 m² 1 Zimmer ab € 814,50",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen99-28-3-1210",
+      "rent_eur": "1077.19",
+      "size_sqm": "99.28",
+      "rooms": 3,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofort verfügbar Besichtigung möglich Skraupstrasse 24 1210 Wien 1 Wohnung 99,28 m² 3 Zimmer ab € 1.077,19",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen120-90-5-1220",
+      "rent_eur": null,
+      "size_sqm": "120.90",
+      "rooms": 5,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "In Bau Vormerkung nicht mehr möglich Brockhausengasse 47 Brockhausengasse 47 1220 Wien 155 Wohnungen 42,54 – 120,90 m² 2 – 5 Zimmer",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen121-02-5-1220",
+      "rent_eur": null,
+      "size_sqm": "121.02",
+      "rooms": 5,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "In Bau Vormerkung nicht mehr möglich Donaustadtstrasse 37a Bpl3 1220 Wien 134 Wohnungen 38,61 – 121,02 m² 2 – 5 Zimmer",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-gesiba-at-immobilien-wohnungen51-91-2-1220",
+      "rent_eur": "946.97",
+      "size_sqm": "51.91",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofort verfügbar Besichtigung möglich Maria-Trapp-Platz 2 1220 Wien 1 Wohnung 51,91 m² 2 Zimmer ab € 946,97",
+      "provider": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "source_site": "www.gesiba.at",
+      "detail_url": "https://www.gesiba.at/immobilien/wohnungen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche31-1-1100",
+      "rent_eur": "653.54",
+      "size_sqm": "31",
+      "rooms": 1,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1100 Wien Bloch-Bauer-Promenade 13/2/17 31 m² € 653,54 1 Zimmer 5. Obergeschoss 15 m² Terrasse Eigenmittel: € 18.723,75 Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche43-1-1110",
+      "rent_eur": "584.01",
+      "size_sqm": "43",
+      "rooms": 1,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1110 Wien Am Kanal 73A/A051 43 m² € 584,01 1 Zimmer 2. Obergeschoss 6 m² Loggia Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche62-2-1110",
+      "rent_eur": "835.62",
+      "size_sqm": "62",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1110 Wien Herbortgasse 28/H049 62 m² € 835,62 2 Zimmer 2. Obergeschoss Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche108-2-1110",
+      "rent_eur": "1432.73",
+      "size_sqm": "108",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1110 Wien Herbortgasse 28/H162 108 m² € 1.432,73 2 Zimmer 5. & 6. Obergeschoss 12 m² Terrasse Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche48-2-1130",
+      "rent_eur": "411.24",
+      "size_sqm": "48",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1130 Wien Thomas-Morus-Gasse 12/1 48 m² € 411,24 2 Zimmer Erdgeschoss Eigenmittel: € 1.951,51 Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche63-3-1130",
+      "rent_eur": "550.10",
+      "size_sqm": "63",
+      "rooms": 3,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1130 Wien Thomas-Morus-Gasse 10/9 63 m² € 550,10 3 Zimmer 2. Obergeschoss Eigenmittel: € 2.702,39 Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche39-1-1140",
+      "rent_eur": "410.61",
+      "size_sqm": "39",
+      "rooms": 1,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1140 Wien Felbigergasse 105B/10 39 m² € 410,61 1 Zimmer 2. Obergeschoss Eigenmittel: € 8.948,87 Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche52-2-1210",
+      "rent_eur": "802.02",
+      "size_sqm": "52",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1210 Wien Leopoldauer Straße 157A/1/2 52 m² € 802,02 2 Zimmer Erdgeschoss 32 m² Garten 4 m² Loggia 14 m² Terrasse Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen31-1-1100",
+      "rent_eur": "653.54",
+      "size_sqm": "31",
+      "rooms": 1,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1100 Wien Bloch-Bauer-Promenade 13/2/17 31 m² € 653,54 1 Zimmer 5. Obergeschoss 15 m² Terrasse Eigenmittel: € 18.723,75 Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen43-1-1110",
+      "rent_eur": "584.01",
+      "size_sqm": "43",
+      "rooms": 1,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1110 Wien Am Kanal 73A/A051 43 m² € 584,01 1 Zimmer 2. Obergeschoss 6 m² Loggia Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen62-2-1110",
+      "rent_eur": "835.62",
+      "size_sqm": "62",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1110 Wien Herbortgasse 28/H049 62 m² € 835,62 2 Zimmer 2. Obergeschoss Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen108-2-1110",
+      "rent_eur": "1432.73",
+      "size_sqm": "108",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1110 Wien Herbortgasse 28/H162 108 m² € 1.432,73 2 Zimmer 5. & 6. Obergeschoss 12 m² Terrasse Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen48-2-1130",
+      "rent_eur": "411.24",
+      "size_sqm": "48",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1130 Wien Thomas-Morus-Gasse 12/1 48 m² € 411,24 2 Zimmer Erdgeschoss Eigenmittel: € 1.951,51 Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen63-3-1130",
+      "rent_eur": "550.10",
+      "size_sqm": "63",
+      "rooms": 3,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1130 Wien Thomas-Morus-Gasse 10/9 63 m² € 550,10 3 Zimmer 2. Obergeschoss Eigenmittel: € 2.702,39 Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen39-1-1140",
+      "rent_eur": "410.61",
+      "size_sqm": "39",
+      "rooms": 1,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1140 Wien Felbigergasse 105B/10 39 m² € 410,61 1 Zimmer 2. Obergeschoss Eigenmittel: € 8.948,87 Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen52-2-1210",
+      "rent_eur": "802.02",
+      "size_sqm": "52",
+      "rooms": 2,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1210 Wien Leopoldauer Straße 157A/1/2 52 m² € 802,02 2 Zimmer Erdgeschoss 32 m² Garten 4 m² Loggia 14 m² Terrasse Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen80-3-1210",
+      "rent_eur": "1383.26",
+      "size_sqm": "80",
+      "rooms": 3,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1210 Wien Leopoldauerstraße 157a / Stiege 1 / Top 23 80 m² € 1.383,26 3 Zimmer 3. Obergeschoss 6 m² Loggia Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen91-4-1210",
+      "rent_eur": "1503.99",
+      "size_sqm": "91",
+      "rooms": 4,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1210 Wien Leopoldauer Straße 157A/2/23 91 m² € 1.503,99 4 Zimmer 2. Obergeschoss 6 m² Loggia Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen85-3-1210",
+      "rent_eur": "1412.14",
+      "size_sqm": "85",
+      "rooms": 3,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1210 Wien Hans-Czermak-Gasse 12/2 85 m² € 1.412,14 3 Zimmer Erdgeschoss 41 m² Garten 22 m² Terrasse Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    },
+    {
+      "id": "coop-https-www-oevw-at-suche-wohnen44-1-1210",
+      "rent_eur": "839.45",
+      "size_sqm": "44",
+      "rooms": 1,
+      "deposit_eur": null,
+      "kaufoption": null,
+      "address": "Sofortbezug Wohnung – Miete – 1210 Wien Hans-Czermak-Gasse 14/25 44 m² € 839,45 1 Zimmer 6. Obergeschoss 2 m² Balkon 11 m² Terrasse Zum Objekt",
+      "provider": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "source_site": "www.oevw.at",
+      "detail_url": "https://www.oevw.at/suche/wohnen"
+    }
+  ],
+  "cooperatives": [
+    {
+      "name": "AEAG - Gemeinnützige Wohnungsaktiengesellschaft Wohnpark Alt-Erlaa",
+      "address": "Eßlinggasse 8-10, 1010 Wien",
+      "website": "https://www.aeag.at",
+      "email": "office@aeag.at",
+      "phone": "01 / 534 770"
+    },
+    {
+      "name": "AH-WOHNEN (Altmannsdorf und Hetzendorf)",
+      "address": "Altmannsdorfer Straße 76, 1120 Wien",
+      "website": "http://ah-wohnen.at",
+      "email": "info@ah-wohnen.at",
+      "phone": "01 / 804 654 40"
+    },
+    {
+      "name": "BAUHILFE Gemeinnützige Gesellschaft m.b.H.",
+      "address": "Meidlinger Hauptstr. 11, Lokal 14, 1120 Wien",
+      "website": "https://www.bauhilfe.at",
+      "email": "office@bauhilfe.at",
+      "phone": "01 / 813 838 30"
+    },
+    {
+      "name": "BWSG - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "address": "Triesterstraße 40/3/1, 1100 Wien",
+      "website": "http://www.bwsg.at",
+      "email": "office@bwsg.at",
+      "phone": "01 / 546 080"
+    },
+    {
+      "name": "DONAU-CITY-WOHNBAU AG",
+      "address": "Leonard-Bernstein-Straße 4-6/3/1, 1220 Wien",
+      "website": "https://www.dc-wohnbau.at",
+      "email": "office@dc-wohnbau.at",
+      "phone": "01 / 907 020 00"
+    },
+    {
+      "name": "EBG - Ein- und Mehrfamilienhäuser Baugenossenschaft",
+      "address": "Josefstädter Straße 81-83, 1080 Wien",
+      "website": "https://ebg-wohnen.at",
+      "email": "ebg@ebg-wohnen.at",
+      "phone": "01 / 406 160 4"
+    },
+    {
+      "name": "STADTRAND SÜD - Bau- u. Wohnungsgenossenschaft (EBSG)",
+      "address": "Baslergasse 86, 1232 Wien",
+      "website": "https://www.ebsg.at",
+      "email": "stadtrandsued@ebsg.at",
+      "phone": "01 / 333 102 1"
+    },
+    {
+      "name": "EGW - Erste gemeinnützige Wohnungsgesellschaft mbH",
+      "address": "Andreasgasse 9, 1070 Wien",
+      "website": "http://www.egw.at",
+      "email": "office@egw.at",
+      "phone": "01 / 545 1567 101"
+    },
+    {
+      "name": "FAMILIENWOHNBAU gemeinnützige Bau- und Siedlungsges. m.b.H.",
+      "address": "Märzstraße 1, 1150 Wien",
+      "website": "https://www.familienwohnbau.at",
+      "email": "office@familienwohnbau.at",
+      "phone": "01 / 403 41 81"
+    },
+    {
+      "name": "FRIEDEN - Bau- und Siedlungsgenossenschaft",
+      "address": "Hietzinger Hauptstraße 119-121, 1130 Wien",
+      "website": "https://www.frieden.at",
+      "email": "wien@frieden.at",
+      "phone": "01 / 505 572 6"
+    },
+    {
+      "name": "FRIEDENSWERK NÖ (Niederösterreichisches Friedenswerk)",
+      "address": "Hietzinger Hauptstraße 119-121, 1130 Wien",
+      "website": "https://www.frieden.at",
+      "email": "wien@frieden.at",
+      "phone": "01 / 505 572 60"
+    },
+    {
+      "name": "GARTENHEIM - Familienhäuser-, Bau- und Wohnungsgenossenschaft",
+      "address": "Adam-Betz-Gasse 25a, 1220 Wien",
+      "website": "https://gartenheim.at",
+      "email": "office@gartenheim.at",
+      "phone": "01 / 774 43 04"
+    },
+    {
+      "name": "GARTENSIEDLUNG - Gemeinnützige Wohnungsgenossenschaft",
+      "address": "Flötzersteig 115, 1140 Wien",
+      "website": "",
+      "email": "office@gartensiedlung.at",
+      "phone": "01 / 914 237 4"
+    },
+    {
+      "name": "GESIBA - Gemeinnützige Siedlungs- und Bauaktiengesellschaft",
+      "address": "Eßlinggasse 8-10, 1010 Wien",
+      "website": "https://www.gesiba.at",
+      "email": "office@gesiba.at",
+      "phone": "01 / 534 770"
+    },
+    {
+      "name": "GSG - Gesellschaft für Stadtentwicklung und Stadterneuerung",
+      "address": "Lindengasse 16, 1070 Wien",
+      "website": "https://www.gsgwohnen.at",
+      "email": "office@gsgwohnen.at",
+      "phone": "01 / 524 034 0"
+    },
+    {
+      "name": "GWSG - Wiener Stadtwerke Wohnungs- und Siedlungsges.",
+      "address": "Erdbergstraße 236, 1110 Wien",
+      "website": "http://gwsg.at",
+      "email": "office@gwsg.at",
+      "phone": "01 / 587 359 8"
+    },
+    {
+      "name": "Heimat Österreich - Zweigniederlassung Wien",
+      "address": "Davidgasse 48, 1100 Wien",
+      "website": "https://www.heimat-oesterreich.at",
+      "email": "wien@hoe.at",
+      "phone": "01 / 982 360 1"
+    },
+    {
+      "name": "Heimbau - Bau-, Wohnungs- u. Siedlungsgenossenschaft",
+      "address": "Eichenstraße 2, 1120 Wien",
+      "website": "https://www.heimbau.at",
+      "email": "office@heimbau.at",
+      "phone": "01 / 981 710"
+    },
+    {
+      "name": "EISENHOF Gemeinnützige Wohnungsgesellschaft m.b.H.",
+      "address": "Eichenstraße 2, 1120 Wien",
+      "website": "https://www.heimbau.at",
+      "email": "office@heimbau.at",
+      "phone": "01 / 981 710"
+    },
+    {
+      "name": "HEIM - Bau- Wohn- und Siedlungsgenossenschaft",
+      "address": "Friedmanngasse 62, 1160 Wien",
+      "website": "https://www.heim-wohnen.at",
+      "email": "willkommen@heim-wohnen.at",
+      "phone": "01 / 486 427 8"
+    },
+    {
+      "name": "KRIEGERHEIMSTÄTTEN - Bau- und Siedlungs-Genossenschaft",
+      "address": "Spandlgasse 26/3/0, 1220 Wien",
+      "website": "http://www.kriegerheimstaetten.at",
+      "email": "kanzlei@kriegerheimstaetten.at",
+      "phone": "0664 / 883 613 84"
+    },
+    {
+      "name": "LAUDONWIESE Kleingarten-Genossenschaft",
+      "address": "Friedhofstraße 19, 1140 Wien-Hadersdorf",
+      "website": "http://www.laudonwiese.at",
+      "email": "office@laudonwiese.at",
+      "phone": "0664 / 134 42 50"
+    },
+    {
+      "name": "Wohnbauvereinigung GFW Gemeinnützige GmbH",
+      "address": "Bloch-Bauer-Promenade 17, 1100 Wien",
+      "website": "https://www.lebenswert-wohnen.at",
+      "email": "office@wbv-gfw.at",
+      "phone": "01 / 605 73 0"
+    },
+    {
+      "name": "MIGRA Gemeinnützige Wohnungsges.m.b.H.",
+      "address": "Am Tabor 19/2/2, 1020 Wien",
+      "website": "https://www.migra.at",
+      "email": "info@migra.at",
+      "phone": "01 / 794 58"
+    },
+    {
+      "name": "Neusiedler Bau- Wohnungs- und Siedlungsgenossenschaft",
+      "address": "Rennweg 70, 1030 Wien",
+      "website": "",
+      "email": "office@neusiedlerbau.at",
+      "phone": "01 / 798 103 5"
+    },
+    {
+      "name": "NHG - Neue Heimat Gemeinnützige Wohnungs- u. Siedlungsges.",
+      "address": "Hernalser Gürtel 1, 1170 Wien",
+      "website": "https://www.nhg.at",
+      "email": "willkommen@nhg.at",
+      "phone": "01 / 401 09"
+    },
+    {
+      "name": "GEWOG Gemeinnützige Wohnungsbau-Gesellschaft m.b.H.",
+      "address": "Hernalser Gürtel 1, 1170 Wien",
+      "website": "https://www.nhg.at",
+      "email": "willkommen@nhg.at",
+      "phone": "01 / 401 09"
+    },
+    {
+      "name": "NÖSW - Niederösterreichisches Siedlungswerk",
+      "address": "Bloch-Bauer-Promenade 17, 1100 Wien",
+      "website": "https://www.noesw.at",
+      "email": "hausverwaltung@noesw.at",
+      "phone": "01 / 39 400 02 0"
+    },
+    {
+      "name": "ÖSW - Oesterreichisches Siedlungswerk",
+      "address": "Feldgasse 6-8, 1080 Wien",
+      "website": "https://oesw.at",
+      "email": "office@oesw.at",
+      "phone": "01 / 401 570"
+    },
+    {
+      "name": "KROTTENBACH - Bau-, Wohnungs- und Siedlungsgenossenschaft",
+      "address": "Hutweidengasse 35, Stiege 7, Tür 3, 1190 Wien",
+      "website": "https://oesw.at",
+      "email": "office@oesw.at",
+      "phone": "01 / 401 570"
+    },
+    {
+      "name": "ÖVW - Oesterreichisches Volkswohnungswerk",
+      "address": "Bruno-Marek-Allee 23, 1020 Wien",
+      "website": "https://www.oevw.at",
+      "email": "oevw@oevw.at",
+      "phone": "01 / 908 143 8"
+    },
+    {
+      "name": "Wiener gemeinnützige Wohn- und Siedlungsgenossenschaft",
+      "address": "Bruno-Marek-Allee 23, 1020 Wien",
+      "website": "https://www.oevw.at",
+      "email": "wiener@oevw.at",
+      "phone": "01 / 908 143 8"
+    },
+    {
+      "name": "PATRIA - Bau- Wohnungs- und Siedlungsgenossenschaft",
+      "address": "Bruno-Marek-Allee 23, 1020 Wien",
+      "website": "",
+      "email": "office@patria.at",
+      "phone": "01 / 713 371 6"
+    },
+    {
+      "name": "SCHWARZATAL Gemeinnützige Wohnungs- und Siedlungsanlagen GmbH",
+      "address": "Stella-Klein-Löw-Weg 13, 1020 Wien",
+      "website": "https://www.schwarzatal.at",
+      "email": "kundendienst@schwarzatal.at",
+      "phone": "050 / 888 7"
+    },
+    {
+      "name": "SIEDLUNGSUNION - Wohnungs- und Siedlungsgenossenschaft",
+      "address": "Mergenthalerplatz 10, 1220 Wien",
+      "website": "http://www.siedlungsunion.at",
+      "email": "office@siedlungsunion.at",
+      "phone": "01 / 203 124 6"
+    },
+    {
+      "name": "Kleingartengenossenschaft Sommerhaide",
+      "address": "Sillerstraße 75, 1190 Wien",
+      "website": "https://www.sommerhaide.at",
+      "email": "sommerhaide@aon.at",
+      "phone": "01 / 534 53"
+    },
+    {
+      "name": "SOZIALBAU gemeinnützige Wohnungsaktiengesellschaft",
+      "address": "Lindengasse 55, 1070 Wien",
+      "website": "https://www.sozialbau.at",
+      "email": "bewohnerservice@sozialbau.at",
+      "phone": "01 / 521 950"
+    },
+    {
+      "name": "FAMILIE gemeinnützige Wohn- und Siedlungsgenossenschaft (Sozialbau)",
+      "address": "Lindengasse 55, 1070 Wien",
+      "website": "https://www.sozialbau.at",
+      "email": "bewohnerservice@sozialbau.at",
+      "phone": "01 / 521 950"
+    },
+    {
+      "name": "Vindobona - Bau-, Wohnungs- und Siedlungsgenossenschaft (Sozialbau)",
+      "address": "Lindengasse 55, 1070 Wien",
+      "website": "https://www.sozialbau.at",
+      "email": "bewohnerservice@sozialbau.at",
+      "phone": "01 / 521 950"
+    },
+    {
+      "name": "Neuland gemeinnützige Wohnbau-Gesellschaft m.b.H. (Sozialbau)",
+      "address": "Lindengasse 55, 1070 Wien",
+      "website": "https://www.sozialbau.at",
+      "email": "bewohnerservice@sozialbau.at",
+      "phone": "01 / 521 950"
+    },
+    {
+      "name": "Urbanbau Gemeinnützige Bau-, Wohnungs- u. Stadterneuerungsges. (Sozialbau)",
+      "address": "Lindengasse 55, 1070 Wien",
+      "website": "https://www.sozialbau.at",
+      "email": "bewohnerservice@sozialbau.at",
+      "phone": "01 / 521 950"
+    },
+    {
+      "name": "Volksbau gemeinnützige Wohn- und Siedlungsgenossenschaft (Sozialbau)",
+      "address": "Lindengasse 55, 1070 Wien",
+      "website": "https://www.sozialbau.at",
+      "email": "bewohnerservice@sozialbau.at",
+      "phone": "01 / 521 950"
+    },
+    {
+      "name": "Wohnbau gemeinnützige Wohn- und Siedlungsgenossenschaft (Sozialbau)",
+      "address": "Lindengasse 55, 1070 Wien",
+      "website": "https://www.sozialbau.at",
+      "email": "bewohnerservice@sozialbau.at",
+      "phone": "01 / 521 950"
+    },
+    {
+      "name": "STEG - Wiener Stadterneuerungsgesellschaft",
+      "address": "Eßlinggasse 8-10, 1010 Wien",
+      "website": "https://www.steg.at",
+      "email": "office@steg.at",
+      "phone": "01 / 534 770"
+    },
+    {
+      "name": "STUWO Gemeinnützige Studentenwohnbau Aktiengesellschaft",
+      "address": "Strozzigasse 6-8, 1080 Wien",
+      "website": "https://www.stuwo.at",
+      "email": "helpcenter@stuwo.at",
+      "phone": "01 / 404 936 20"
+    },
+    {
+      "name": "WBV-GPA - Wohnbauvereinigung für Privatangestellte",
+      "address": "Werdertorgasse 9, 1010 Wien",
+      "website": "http://www.wbv-gpa.at",
+      "email": "office@wbv-gpa.at",
+      "phone": "01 / 533 341 4"
+    },
+    {
+      "name": "SÜD-OST - Gemeinnützige Wohnungsgenossenschaft",
+      "address": "Laaer-Berg-Straße 166, 1100 Wien",
+      "website": "http://www.wg-suedost.at",
+      "email": "office@wg-suedost.at",
+      "phone": "01 / 688 113 8"
+    },
+    {
+      "name": "WIEN-SÜD - Bau- u. Wohnungsgenossenschaft",
+      "address": "Untere Aquäduktgasse 7, 1230 Wien",
+      "website": "https://www.wiensued.at",
+      "email": "office@wiensued.at",
+      "phone": "01 / 866 950"
+    },
+    {
+      "name": "MERKUR - Bau- und Wohnungsgenossenschaft (Wien-Süd)",
+      "address": "Elisenstraße 40-42, 1230 Wien",
+      "website": "https://www.wiensued.at",
+      "email": "office.merkur@wiensued.at",
+      "phone": "01 / 866 950"
+    },
+    {
+      "name": "WOGEM - Wohn-, Bau- und Siedlungsgesellschaft",
+      "address": "Strohblumengasse 112, 1220 Wien",
+      "website": "http://wogem.at",
+      "email": "office@wogem.at",
+      "phone": "01 / 280 995 5"
+    },
+    {
+      "name": "NEUES LEBEN - Bau-, Wohn- und Siedlungsgenossenschaft",
+      "address": "Troststraße 108, 1100 Wien",
+      "website": "https://www.wohnen.at",
+      "email": "info@wohnen.at",
+      "phone": "01 / 604 263 50"
+    },
+    {
+      "name": "Bau- und Wohnungsgenossenschaft \"Albertgasse\" in Wien",
+      "address": "Lützowgasse 12-14/7. St., 1140 Wien",
+      "website": "",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "name": "Gemeinnützige Siedlungs-Genossenschaft Alt-Glanzing",
+      "address": "Glanzinggasse 41, 1190 Wien",
+      "website": "",
+      "email": "altglanzing@gmx.at",
+      "phone": "0699 / 152 244 80"
+    },
+    {
+      "name": "Gemeinnützige Verwaltungsvereinigung berufstätiger Frauen",
+      "address": "Hadikgasse 112/Tür 7, 1140 Wien",
+      "website": "",
+      "email": "gb.hadikgasse112@a1.net",
+      "phone": "01 / 894 542 3"
+    }
+  ],
+  "history": [
+    {
+      "timestamp": "2026-07-15T14:12:58.851014+00:00",
+      "total": 9,
+      "added": 9,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-07-15T14:13:22.629204+00:00",
+      "total": 9,
+      "added": 0,
+      "removed": 0
+    },
+    {
+      "timestamp": "2026-07-15T14:26:18.023402+00:00",
+      "total": 226,
+      "added": 226,
+      "removed": 9
+    },
+    {
+      "timestamp": "2026-07-15T14:30:53.094530+00:00",
+      "total": 54,
+      "added": 45,
+      "removed": 217
+    },
+    {
+      "timestamp": "2026-07-15T14:37:12.135325+00:00",
+      "total": 54,
+      "added": 1,
+      "removed": 1
+    },
+    {
+      "timestamp": "2026-07-15T14:39:53.822452+00:00",
+      "total": 45,
+      "added": 1,
+      "removed": 10
+    },
+    {
+      "timestamp": "2026-07-15T14:51:43.552988+00:00",
+      "total": 45,
+      "added": 0,
+      "removed": 0,
+      "new_ids": []
+    },
+    {
+      "timestamp": "2026-07-16T07:56:48.102205+00:00",
+      "total": 46,
+      "added": 8,
+      "removed": 7,
+      "new_ids": [
+        "coop-https-www-bwsg-at-immobilien-immobilie-suchen-85-53-4-1110",
+        "coop-https-www-gesiba-at-immobilien-wohnungen99-28-3-1210",
+        "coop-https-www-oevw-at-suche-wohnen44-1-1210",
+        "coop-https-www-oevw-at-suche52-2-1210",
+        "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-2-zimmer-47-m2-oevw-3e852e57-72cd-43a6-99fe-fffd5421bedd",
+        "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-2-zimmer-53-53-m2-neues-leben-9472d43c-d81e-48de-906e-3795f02691a4",
+        "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-2-zimmer-53-m2-oevw-95eb25ad-0f36-4fa6-996c-1de4ed9c1d14",
+        "mygewo-genossenschaftswohnungen-angebot-genossenschaftswohnung-wien-3-zimmer-80-55-m2-neues-leben-0d6ee215-0020-409a-9337-3b90d5eb5e2e"
+      ]
+    }
+  ]
+}

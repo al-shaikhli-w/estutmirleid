@@ -1,0 +1,25 @@
+{
+  "crons": [
+    {
+      "path": "/api/trigger-scrape",
+      "schedule": "0 */3 * * *"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/listings.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    }
+  ]
+}
